@@ -15,7 +15,6 @@
   "importSorter.importStringConfiguration.quoteMark": "double",
   "editor.renderLineHighlight": "gutter",
   "files.exclude": {
-    "**/build": true,
     "**/.git": true, // this is a default value
     "**/.DS_Store": true, // this is a default value
 
