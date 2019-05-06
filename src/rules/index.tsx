@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 
 import ExpProfissional from "../components/experience";
 import Menu from "../components/menu";
@@ -13,6 +13,7 @@ function BasicRouter(): ReactElement {
       <GlobalStyle />
       <Menu />
       <Switch>
+        <Redirect exact from="/" to="/perfil" />
         <Route path="/perfil" exact component={Profile} />
         <Route path="/skills" exact component={Skills} />
         <Route path="/experience" exact component={ExpProfissional} />
