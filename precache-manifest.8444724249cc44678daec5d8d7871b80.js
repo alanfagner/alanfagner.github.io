@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d90b204dfb34263e79fbd72f0e7d3a84",
+    "revision": "31698b5793efa028dfbf8805de342e9e",
     "url": "/index.html"
   },
   {
-    "revision": "64f31149b46ffca52dd0",
+    "revision": "77decdb8fbe66c7bd1d3",
     "url": "/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "64f31149b46ffca52dd0",
-    "url": "/static/js/2.7dac55cc.chunk.js"
+    "revision": "77decdb8fbe66c7bd1d3",
+    "url": "/static/js/2.e9da3ed3.chunk.js"
   },
   {
-    "revision": "e0aa93d4497ea00cb428",
-    "url": "/static/js/main.ebc212ca.chunk.js"
+    "revision": "97e95609aa40bd5250aa",
+    "url": "/static/js/main.4a5e0a3f.chunk.js"
   },
   {
-    "revision": "42ac5946195a7306e2a5",
-    "url": "/static/js/runtime~main.a8a9905a.js"
+    "revision": "073bb5bdcf662283e566",
+    "url": "/static/js/runtime~main.72696f95.js"
   },
   {
     "revision": "7864e73075a0a05a4b58b7adf731cda4",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ec0d5f78cc10a64b267db9371c7b500",
     "url": "/static/media/Java-icon.2ec0d5f7.svg"
+  },
+  {
+    "revision": "c24cde2827448f08d40afd6909011e16",
+    "url": "/static/media/LI-Logo.c24cde28.png"
   },
   {
     "revision": "cc2b3aafefa9bd0890b1fcc6b9ca835f",
