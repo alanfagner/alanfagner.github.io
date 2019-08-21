@@ -1,3 +1,5 @@
+import myPicture from "../assets/img/myPicture.jpeg";
+
 export interface User {
   name: string;
   describle: string;
@@ -38,11 +40,10 @@ export const user: User = {
   name: "Alan Fagner Goncalves",
   describle:
     "Analise e desenvolvimento de sistemas back-end, front-end e mobile hibrido",
-  picture:
-    "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/54435119_2340255966018522_3151026671088304128_o.jpg?_nc_cat=110&_nc_ht=scontent-mxp1-1.xx&oh=6101e6f90785945046c0a75a2110ca57&oe=5D47B7CF",
-  linkedin: "https://www.linkedin.com/in/alan-gonçalves-08150561",
+  picture: myPicture,
+  linkedin: "https://www.linkedin.com/in/alan-fagner-goncalves/?locale=en_US",
   summary:
-    "Me chamo Alan Fagner Gonçalves (caso não tenha ficado claro), sou natural de Araraquara/SP, Bacharelado na area de tecnologia da informação estou a há {0} anos no mercado de analise e desenvolvimento de software. \n\n Eu trabalhei em algumas empresas aqui de Araraquara, das quais me orgulho muito. Fiz parte de ótimas equipes, tive colegas fantásticos que me ensinaram muito, e graças a eles carrego comigo todo o conhecimento que tenho hoje. \n\nNo momento o back-end e minha principal area, com ampla experiencia na analise e desenvolvimento de sistemas, foco nas linguagem de programação JAVA, NODE-JS para backend e para frontend react e angular, na programação mobile gosto de utilizar as plataformas híbridas com react-native, xamarin e ionic com ênfase em react-native.",
+    "Me chamo Alan Fagner Gonçalves (caso não tenha ficado claro), sou natural de Araraquara/SP, Bacharelado na area de tecnologia da informação estou a {0} anos no mercado de analise e desenvolvimento de software. \n\n Eu trabalhei em algumas empresas aqui de Araraquara, das quais me orgulho muito. Fiz parte de ótimas equipes, tive colegas fantásticos que me ensinaram muito, e graças a eles carrego comigo todo o conhecimento que tenho hoje. \n\nNo momento o back-end e minha principal area, com ampla experiencia na analise e desenvolvimento de sistemas, foco nas linguagem de programação JAVA, NODE-JS para backend e para frontend react e angular, na programação mobile gosto de utilizar as plataformas híbridas com react-native, xamarin e ionic com ênfase em react-native.",
   dtInitWork: "20140101",
   skills: {
     backend: [

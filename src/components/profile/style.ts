@@ -19,4 +19,10 @@ export const ProfileBox = styled(MainContainer)`
   .img-logo-nodejs {
     width: 20em;
   }
+  .img-linkedIn {
+    width: 10em;
+  }
+  .link:hover {
+   color: #00F
+}
 `;
