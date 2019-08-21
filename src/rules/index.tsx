@@ -17,6 +17,7 @@ function BasicRouter(): ReactElement {
         <Route path="/perfil" exact component={Profile} />
         <Route path="/skills" exact component={Skills} />
         <Route path="/experience" exact component={ExpProfissional} />
+        <Route component={Profile} />
       </Switch>
     </BrowserRouter>
   );

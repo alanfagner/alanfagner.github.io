@@ -10,7 +10,6 @@ import reactIcon from "../../assets/img/React-icon.svg";
 import { user } from "../../model/User";
 import { ProfileBox } from "./style";
 import linkedIn from "../../assets/img/LI-Logo.png";
-import { Link } from "react-router-dom";
 
 
 moment.updateLocale("pt-BR");
@@ -30,7 +29,7 @@ function Profile(): ReactElement {
         <h1 className="mb-0"> {user.name}</h1>
         <h6 className="text-justify"> {user.describle}</h6>
         <a href={user.linkedin} target="_blank" rel="noopener noreferrer">
-          <img className="img-linkedIn" src={linkedIn} ></img>
+          <img className="img-linkedIn" src={linkedIn} />
         </a>
         <div className="text-justify mt-5">
           <h2>Sobre Mim</h2>
